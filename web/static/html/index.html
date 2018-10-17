@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>新闻采集平台数据导入</title>
+    <!-- Bootstrap core CSS -->
+    <link href="/static/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/static/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/static/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../assets/css/grid.css" rel="stylesheet">
+    <script src="../assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="../bootstrap/js/jquery-2.1.1.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../static/bootstrap/js/bootbox.min.js"></script>
+
+
+    <link href="/static/assets/css/grid.css" rel="stylesheet">
+    <script src="static/assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="/static/bootstrap/js/jquery-2.1.1.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.js"></script>
+    <script src="static/bootstrap/js/bootbox.min.js"></script>
+</head>
+<body>
+<div class="container">
+
+    <div class="page-header">
+        <h1>搜索词导入工具</h1>
+        <p class="lead">这里写点操作流程，及规范。</p>
+    </div>
+
+    <h3>关键词组合</h3>
+    <form id="uploadKeywords">
+        <div class="form-group">
+            <label for="key" class="col">代表词</label>
+            <input type="text" class="form-control" name="key" id="key"/>
+        </div>
+        <div class="form-group">
+            <label for="words_group">关键词组</label>
+            <textarea class="form-control" rows="3" name="words_group" id="words_group"></textarea>
+        </div>
+        <button class="btn btn-primary btn-lg btn-block" type="submit" id="btnSubmit">提交</button>
+    </form>
+</div> <!-- /container -->
+<script src="/static/bootstrap/js/upload.js"></script>
+<!--<script src="../bootstrap/js/upload.js"></script>-->
+</body>
+</html>
